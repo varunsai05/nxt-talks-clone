@@ -1,0 +1,266 @@
+@import url('https://fonts.googleapis.com/css2?family=Bree+Serif&family=Caveat:wght@400;700&family=Lobster&family=Monoton&family=Open+Sans:ital,wght@0,400;0,700;1,400;1,700&family=Playfair+Display+SC:ital,wght@0,400;0,700;1,700&family=Playfair+Display:ital,wght@0,400;0,700;1,700&family=Roboto:ital,wght@0,400;0,700;1,400;1,700&family=Source+Sans+Pro:ital,wght@0,400;0,700;1,700&family=Work+Sans:ital,wght@0,400;0,700;1,700&display=swap');
+
+* {
+    font-family: Roboto;
+    margin: 0;
+    padding: 0;
+}
+
+.header {
+    background-image: linear-gradient(to right, #1e293b, transparent);
+    position: relative;
+    overflow: hidden;
+    height: 100%;
+}
+
+.video-container {
+    height: 100%;
+    width: 100vw;
+    position: absolute;
+    top: 0;
+    left: 0;
+    z-index: -99;
+}
+
+.podcast-video {
+    height: 100%;
+    width: 100%;
+    object-fit: cover;
+    position: absolute;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    animation: videoSequence 12s linear infinite;
+}
+
+
+#video1 {
+    animation-delay: 0s;
+}
+
+#video2 {
+    animation-delay: 1s;
+}
+
+#video3 {
+    animation-delay: 2s;
+}
+
+#video4 {
+    animation-delay: 3s;
+}
+
+#video5 {
+    animation-delay: 4s;
+}
+
+#video6 {
+    animation-delay: 5s;
+}
+
+@keyframes videoSequence {
+
+    0%,
+    100% {
+        opacity: 1;
+    }
+}
+
+.intro {
+    padding: 2.4rem;
+}
+
+.strike {
+    background-image: url('https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff450f5d25f9f_Vector%201.png');
+}
+
+.nxtimg {
+    width: 200px;
+}
+
+
+.green {
+    color: #a3e635;
+}
+
+.white {
+    color: #f1f5f9;
+}
+
+.header-buttons {
+    width: 300px;
+    margin-top: 40px;
+}
+
+.logo {
+    width: 200px;
+}
+
+.by {
+    color: #fff;
+    font-family: Inter, sans-serif;
+    font-size: 15px;
+    line-height: 19px;
+}
+
+.btn-type-1 {
+    border-radius: 8px !important;
+}
+
+.pop-up-video:hover {
+    background-color: transparent;
+    color: white;
+}
+
+.companies,
+.feedback,
+footer,
+.register {
+    background-color: #0f172a;
+    height: 100%;
+}
+
+.feedback button {
+    border: 1px solid #713f12;
+    background-color: #713f1230;
+    color: #713f12;
+    padding: 8px;
+}
+
+.people,
+.info,
+.no-info-div {
+    background-color: #1e293b;
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4b212d25fe3_A%20Rare%20Collection%20of%20Insider%20%20Knowledge%2C%20All%20Yours!%20\(1\).png");
+    background-size: cover;
+    height: 100%;
+}
+
+.input-form,
+input button {
+    background-color: #1e293b !important;
+    border: none !important;
+    padding: 12px;
+    border-radius: 10px;
+}
+
+
+.num-btn {
+    background-color: #1e293b !important;
+    border: none !important;
+    color: grey;
+}
+
+.promo {
+    background-image: url("https://cdn.prod.website-files.com/64362e90abbff481a6d25ce8/64362e90abbff4e843d25fd4_NxtWave's%20Empowering%20Podcast%20Series%20%20to%20Shape%20your%20Dream%20Career.%20(1).png");
+    background-size: cover;
+}
+
+
+.btn-type-2 {
+    border-radius: 20px;
+    margin-right: 12px;
+}
+
+.text-block {
+    color: #cbd5e1;
+}
+
+.mentors-details {
+    background-color: rgb(51, 65, 85);
+    margin-left: 20px;
+    border-radius: 20px;
+}
+
+.student-details {
+    margin-left: 100px;
+}
+
+
+.payment-options img {
+    margin-right: 10px;
+}
+
+.policies {
+    margin-left: auto;
+}
+
+a {
+    text-decoration: none;
+    color: #959ead;
+    font-size: 0.8rem;
+    font-family: Inter, sans-serif;
+    font-weight: bold;
+    margin-bottom: 10px;
+}
+
+.line {
+    background-color: grey;
+    height: 1px;
+    margin-bottom: 32px;
+}
+
+.footer-headings,
+.policies {
+    color: #5a7184;
+    height: 100%;
+}
+
+.policies a {
+    margin-right: 10px;
+    color: #5a7184;
+}
+
+a:hover {
+    text-decoration: none;
+    color: #f1f5f9;
+}
+
+.scroll {
+    height: 50px;
+}
+
+marquee {
+    animation: scroll 4s linear infinite;
+    overflow: hidden;
+}
+
+.feedback-btn {
+    background-color: #713f1230;
+    border: 1px solid #f59e0b;
+    color: #f59e0b;
+    border-radius: 25px;
+    padding: 8px;
+    font-size: 1.2rem;
+    font-weight: bold;
+}
+
+.profiles {
+    width: 500px;
+    background-color: #1e293b;
+    border-radius: 20px;
+}
+
+.profile-details h3 {
+    font-size: 1.2rem;
+}
+
+.overview {
+    overflow: auto;
+}
+
+.footer-social-media {
+    margin-right: 10px;
+}
+
+.card,
+button {
+    transform: scale(1);
+    transition: transform 0.3s;
+}
+
+.card:hover,
+button:hover {
+    transform: scale(1.1);
+    border: none;
+}
